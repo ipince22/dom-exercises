@@ -1,3 +1,94 @@
 {
-  "compiler": "vanillajs"
+    "port": 3000,
+    "address": "localhost",
+    "language": "vanillajs",
+    "compiler": "vanillajs",
+    "tester": "jest",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "ignoreRegex": null,
+    "grading": "isolated",
+    "actions": [
+        "build",
+        "test"
+    ],
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "00-Welcome",
+            "title": "00-Welcome",
+            "path": "exercises/00-Welcome"
+        },
+        {
+            "slug": "01-hello-world",
+            "title": "01-hello-world",
+            "path": "exercises/01-hello-world"
+        },
+        {
+            "slug": "02-Select-DOM-Element",
+            "title": "02-Select-DOM-Element",
+            "path": "exercises/02-Select-DOM-Element"
+        },
+        {
+            "slug": "03-Change-Div-Background",
+            "title": "03-Change-Div-Background",
+            "path": "exercises/03-Change-Div-Background"
+        },
+        {
+            "slug": "04-Move-DOM-Element",
+            "title": "04-Move-DOM-Element",
+            "path": "exercises/04-Move-DOM-Element"
+        },
+        {
+            "slug": "05-Create-DOM-Element-First",
+            "title": "05-Create-DOM-Element-First",
+            "path": "exercises/05-Create-DOM-Element-First"
+        },
+        {
+            "slug": "06-Create-DOM-Element-Second",
+            "title": "06-Create-DOM-Element-Second",
+            "path": "exercises/06-Create-DOM-Element-Second"
+        },
+        {
+            "slug": "07-Create-DOM-list-of-li",
+            "title": "07-Create-DOM-list-of-li",
+            "path": "exercises/07-Create-DOM-list-of-li"
+        },
+        {
+            "slug": "08-Remove-DOM-Element-part-one",
+            "title": "08-Remove-DOM-Element-part-one",
+            "path": "exercises/08-Remove-DOM-Element-part-one"
+        },
+        {
+            "slug": "09-Remove-DOM-Element-part-two",
+            "title": "09-Remove-DOM-Element-part-two",
+            "path": "exercises/09-Remove-DOM-Element-part-two"
+        },
+        {
+            "slug": "10-Render-on-Click",
+            "title": "10-Render-on-Click",
+            "path": "exercises/10-Render-on-Click"
+        },
+        {
+            "slug": "11-Add-LI-on-Click",
+            "title": "11-Add-LI-on-Click",
+            "path": "exercises/11-Add-LI-on-Click"
+        },
+        {
+            "slug": "12-Dynamic-HTML-String",
+            "title": "12-Dynamic-HTML-String",
+            "path": "exercises/12-Dynamic-HTML-String"
+        },
+        {
+            "slug": "13-Add-Options-to-the-Select",
+            "title": "13-Add-Options-to-the-Select",
+            "path": "exercises/13-Add-Options-to-the-Select"
+        },
+        {
+            "slug": "14-Todo-List",
+            "title": "14-Todo-List",
+            "path": "exercises/14-Todo-List"
+        }
+    ]
 }
